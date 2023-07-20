@@ -11,7 +11,7 @@ const AccordionComponent = () => {
     <h2>
       <AccordionButton>
         <Box className='accordian-button' fontWeight={"semibold"} as="span" flex='1' >
-        KNOW US
+      للمزيد
         </Box>
         <AccordionIcon />
       </AccordionButton>
