@@ -23,7 +23,7 @@ function ProductCart({ image, title, price, ogprice, is_new, id }) {
             fontWeight='bold'
             fontSize={['16px', '17px', '19px', '18px', '21px', '21px']}
           >
-            Rs.{price}
+            LE.{price}
           </Text>
           <Text
             fontWeight='bold'
