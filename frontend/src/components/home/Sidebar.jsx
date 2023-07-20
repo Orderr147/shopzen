@@ -98,11 +98,11 @@ function Sidebar({ id, handleLogout }) {
                     localStorage.setItem('user_token', '')
                   }}
                 >
-                  <Link to='/login'>LOGOUT</Link>
+                  <Link to='/login'>تسجيل الدخول </Link>
                 </Button>
               ) : (
                 <Button width={'full'}>
-                  <Link to='/login'>LOGIN</Link>
+                  <Link to='/login'>تسجيل الدخول </Link>
                 </Button>
               )}
             </Flex>
@@ -110,11 +110,11 @@ function Sidebar({ id, handleLogout }) {
             {/* <Flex justify={'center'}>
               {id ? (
                 <Button onClick={handleLogout} px='2rem'>
-                  تسجيل الخروج
+                  Logout
                 </Button>
               ) : (
                 <Link to='/login'>
-                  <Button px='2rem'>تسجيل الدخول </Button>
+                  <Button px='2rem'>Login</Button>
                 </Link>
               )}
             </Flex> */}
