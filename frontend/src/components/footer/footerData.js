@@ -146,57 +146,57 @@ const straps=[
 ];
 
 const bags = [
-    "Tote Bags",
-"Laptop Covers",
-"Crossbody Bags",
-"Mackbook Sleeves",
-"Passport Covers",
-"Messenger Bags",
-"Pouches"
+    "توتي باج ",
+"كفر لابتوب ",
+"",
+"",
+"",
+"",
+""
 ];
 
 const wallets = [
-   " Phone Wallet",
-"Card Holder",
-"Men's Wallet",
-"Women's Wallet"
+   " محفظة الهاتف",
+"حامل البطاقة",
+"محفظة رجالية",
+"محفظة نسائية"
 ];
 
 const others = [
-   "Gifts For All Occasions",
-"Wireless Chargers",
-"Mobile & Laptop Stands",
-"Designer Notebooks & Planners"
+   "هدايا لجميع المناسبات",
+"شواحن لاسلكية",
+"",
+"نوت بوك "
 ];
 
 const giftsByOccasion = [
-    "Propose Day Gifts",
-"Valentines Day Gifts",
-"Doctors Day Gifts",
-"Christmas Gifts",
-"New Year Gifts"
+    "اقتراح هدايا اليوم",
+"هدايا للفلانتين ",
+"",
+"",
+""
 ];
 
 const giftByRelationship = [
-   " Gifts for Men",
-"Gifts for Her",
-"Gifts for Boyfriend",
-"Gifts for Girlfriend"
+   " هدايا للرجال ",
+"",
+"",
+""
 ];
 const giftByPersona = [
-    "Gifts for Anime Lover",
-"Gifts for Coffee Lover",
-"Gifts for Car Lover",
-"Gifts for Cricket Lover",
-"Gifts for iPhone Users"
+    "",
+"",
+"",
+"",
+""
 ];
 
 const blogs = [
-    "123 Valentine's day quotes & messages",
-"Types of bags for men",
-"Trending tote bags for women",
-"6 Trendy phone cover ideas",
-"How to choose a perfect mobile case"
+    "",
+"",
+"",
+"",
+""
 ]
 
 const downloadApp =[
@@ -210,11 +210,11 @@ const downloadApp =[
     }
 ]
 const giftByBudget = [
-    "Gifts under 500",
-"Gifts under 1000",
-"Gifts under 2000",
-"Gifts under 3000",
-"Gifts under 4000",
-"Gifts under 5000"
+    "",
+"",
+"",
+"",
+"",
+""
 ]
 export { giftByBudget,downloadApp,socialMediaLogo,knowus , helpdesk, network, paymentlogo, cases, bags, homeoffice, straps, others,blogs, giftByPersona,giftByRelationship, giftsByOccasion, wallets}
