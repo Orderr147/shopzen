@@ -37,7 +37,7 @@ function Acco(){
       <Text> Wipe the metallic part clean with a cloth dampened in a mild cleaner and wooden tray with soft dry cloth.</Text>
 
       <Text fontWeight="bold">COUNTRY OF ORIGIN</Text>
-      <Text> Designed and Made in India.</Text>
+      <Text> Designed and developed By Manar</Text>
     </AccordionPanel>
   </AccordionItem>
 
@@ -55,10 +55,10 @@ function Acco(){
       <Text>Dispatch to Courier in 48 Hours.<br/>Eligible for Cash on Delivery</Text>
 
       <Text fontWeight="bold">FREE SHIPPING</Text>
-      <Text>Shipping is free for all prepaid orders above Rs.749.<br/>A charge of Rs.49 is applied to all Prepaid orders below Rs.749.</Text>
+      <Text>Shipping is free for all prepaid orders above LE.749.<br/>A charge of LE.49 is applied to all Prepaid orders below LE.749.</Text>
 
       <Text fontWeight="bold">CASH ON DELIVERY</Text>
-      <Text>Rs.99 extra charges for all Cash On Delivery orders.</Text>
+      <Text>LE.99 extra charges for all Cash On Delivery orders.</Text>
     </AccordionPanel>
   </AccordionItem>
 </Accordion>
