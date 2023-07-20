@@ -13,7 +13,7 @@ import {
 import React from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { Link } from 'react-router-dom'
-import logo from '../../utils/Images/shopzen.jpeg'
+import logo from 'https://raw.githubusercontent.com/Orderr147/shopzen/master/frontend/src/components/home/Mmmm.png'
 function Sidebar({ id, handleLogout }) {
   const { isOpen, onOpen, onClose } = useDisclosure()
   let token = localStorage.getItem('user_token')
