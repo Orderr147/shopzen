@@ -31,7 +31,7 @@ const AccordionComponent = () => {
     <h2>
       <AccordionButton>
         <Box className='accordian-button' fontWeight={"semibold"} as="span" flex='1' >
-        HELPDESK
+        للدعم 
         </Box>
         <AccordionIcon />
       </AccordionButton>
@@ -50,7 +50,7 @@ const AccordionComponent = () => {
     <h2>
       <AccordionButton>
         <Box className='accordian-button' fontWeight={"semibold"} as="span" flex='1' >
-        NETWORK
+        شبكه التواصل
         </Box>
         <AccordionIcon />
       </AccordionButton>
@@ -69,7 +69,8 @@ const AccordionComponent = () => {
     <h2>
       <AccordionButton>
         <Box className='accordian-button' fontWeight={"semibold"} as="span" flex='1' >
-        MOST SEARCHED ON DAILYOBJECTS
+        
+الأكثر بحثًا
         </Box>
         <AccordionIcon />
       </AccordionButton>
@@ -77,7 +78,7 @@ const AccordionComponent = () => {
     <AccordionPanel pb={4}>
     <Box className='accordian-wraper'>
                <Box>
-                <Heading className='footer-serched-object-heading'>CASES & COVERS</Heading>
+                <Heading className='footer-serched-object-heading'>كفر هاتف</Heading>
                 <Box>
                 <List className='footer-li-css'>
                     {cases?.map((item, i) =>{
@@ -87,7 +88,7 @@ const AccordionComponent = () => {
                 </Box>
                </Box>
                <Box>
-                <Heading className='footer-serched-object-heading'>HOME OFFICE</Heading>
+                <Heading className='footer-serched-object-heading'>الصفحه الرئيسيه </Heading>
                 <Box>
                 <List className='footer-li-css'>
                     {homeoffice?.map((item, i) =>{
@@ -97,7 +98,7 @@ const AccordionComponent = () => {
                 </Box>
                </Box>
                <Box>
-                <Heading className='footer-serched-object-heading'>STRAPS & WATCHBANDS</Heading>
+                <Heading className='footer-serched-object-heading'>ساعات</Heading>
                 <Box>
                 <List className='footer-li-css'>
                     {straps?.map((item, i) =>{
@@ -107,7 +108,7 @@ const AccordionComponent = () => {
                 </Box>
                </Box>
                <Box>
-                <Heading className='footer-serched-object-heading'>BAGS & SLEEVES</Heading>
+                <Heading className='footer-serched-object-heading'>حقائب</Heading>
                 <Box>
                 <List className='footer-li-css'>
                     {bags?.map((item, i) =>{
@@ -117,7 +118,7 @@ const AccordionComponent = () => {
                 </Box>
                </Box>
                <Box>
-                <Heading className='footer-serched-object-heading'>WALLETS</Heading>
+                <Heading className='footer-serched-object-heading'>محافظ</Heading>
                 <Box>
                 <List className='footer-li-css'>
                     {wallets?.map((item, i) =>{
@@ -127,7 +128,7 @@ const AccordionComponent = () => {
                 </Box>
                </Box>
                <Box>
-                <Heading className='footer-serched-object-heading'>OTHERS</Heading>
+                <Heading className='footer-serched-object-heading'>المزيد</Heading>
                 <Box>
                 <List className='footer-li-css'>
                     {others?.map((item, i) =>{
@@ -143,7 +144,7 @@ const AccordionComponent = () => {
     <h2>
       <AccordionButton>
         <Box className='accordian-button' fontWeight={"semibold"} as="span" flex='1'  >
-        GIFTS
+        هدايا
         </Box>
         <AccordionIcon />
       </AccordionButton>
@@ -151,7 +152,7 @@ const AccordionComponent = () => {
     <AccordionPanel pb={4}>
     <Box className='accordian-wraper'>
             <Box>
-                <Heading className='footer-serched-object-heading'>GIFTS BY OCCASIONS</Heading>
+                <Heading className='footer-serched-object-heading'>هدايا حسب المناسبات</Heading>
                 <Box>
 
                 <List className='footer-li-css'>
@@ -163,7 +164,7 @@ const AccordionComponent = () => {
                 </Box>
             </Box>
             <Box>
-                <Heading className='footer-serched-object-heading'>GIFTS BY RELATIONSHIPS</Heading>
+                <Heading className='footer-serched-object-heading'>الهدايا</Heading>
                 <Box>
                 <List className='footer-li-css'>
                     {giftByRelationship?.map((item, i) =>{
@@ -173,7 +174,7 @@ const AccordionComponent = () => {
                 </Box>
                </Box>
                <Box>
-                <Heading className='footer-serched-object-heading'>GIFTS BY PERSONA</Heading>
+                <Heading className='footer-serched-object-heading'></Heading>
                 <Box>
                 <List className='footer-li-css'>
                     {giftByPersona?.map((item, i) =>{
@@ -183,7 +184,7 @@ const AccordionComponent = () => {
                 </Box>
                </Box>
                <Box>
-                <Heading className='footer-serched-object-heading'>GIFTS BY BUDGET</Heading>
+                <Heading className='footer-serched-object-heading'></Heading>
                 <Box>
                 <List className='footer-li-css'>
                     {giftByBudget?.map((item, i) =>{
@@ -200,14 +201,14 @@ const AccordionComponent = () => {
     <h2>
       <AccordionButton>
         <Box className='accordian-button' fontWeight={"semibold"} as="span" flex='1' >
-        BLOGS
+        مدونه
         </Box>
         <AccordionIcon />
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
     <Box className='accordian-wraper'>
-                <Heading className='footer-serched-object-heading'>RECENTLY ADDED</Heading>
+                <Heading className='footer-serched-object-heading'></Heading>
                 <Box>
                 <List className='footer-li-css'>
                     {blogs?.map((item, i) =>{
