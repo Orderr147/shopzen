@@ -52,50 +52,50 @@ function ProductCategory() {
             <SwiperSlide>
                 <Box m="auto" w="100px" onClick={() =>handleCategory(null)}>
                     <Image src="https://images.dailyobjects.com/marche/icons/new-arrival/all.png?tr=cm-pad_resize,v-2,w-70,h-70,dpr-1" borderRadius="50%" m="auto" />
-                    <Text color="gray" fontSize="13px" textAlign="center">All</Text>
+                    <Text color="gray" fontSize="13px" textAlign="center">الكل</Text>
                 </Box>
             </SwiperSlide>
 
             <SwiperSlide>
                 <Box m="auto" w="100px" onClick={() =>handleCategory("Daypack")}>
                     <Image src="https://images.dailyobjects.com/marche/assets/images/other/filter-icon.jpg?tr=cm-pad_crop,v-2,w-70,h-70,dpr-1" borderRadius="50%" m="auto" />
-                    <Text color="gray" fontSize="13px" textAlign="center">Pedal Backpack</Text>
+                    <Text color="gray" fontSize="13px" textAlign="center">حقائب </Text>
                 </Box>
             </SwiperSlide>
             <SwiperSlide>
                 <Box m="auto" w="100px"  onClick={() =>handleCategory("Desks")} >
                     <Image src="https://images.dailyobjects.com/marche/icons/category/platrorm-desk-collection.png?tr=cm-pad_resize,v-2,w-72,h-71,dpr-1" borderRadius="50%" m="auto" />
-                    <Text color="gray" fontSize="13px" textAlign="center">Desks</Text>
+                    <Text color="gray" fontSize="13px" textAlign="center">الكترونيات </Text>
                 </Box>
             </SwiperSlide>
             <SwiperSlide>
                 <Box m="auto" w="100px" onClick={() =>handleCategory("Charging Solutions")} >
                     <Image src="https://images.dailyobjects.com/marche/assets/images/other/charging-solution-icon.jpg?tr=cm-pad_crop,v-2,w-70,h-70,dpr-1" borderRadius="50%" m="auto" />
-                    <Text color="gray" fontSize="13px" textAlign="center">Charging Solutions</Text>
+                    <Text color="gray" fontSize="13px" textAlign="center">حامل اجهزه </Text>
                 </Box>
             </SwiperSlide>
             <SwiperSlide>
                 <Box m="auto" w="100px"  onClick={() =>handleCategory("sleeves")}>
                     <Image src="https://images.dailyobjects.com/marche/icons/new-arrival/pu-snap-sleeves.jpg?tr=cm-pad_crop,v-2,w-70,h-70,dpr-1" borderRadius="50%" m="auto" />
-                    <Text color="gray" fontSize="13px" textAlign="center">Macbook Sleeves</Text>
+                    <Text color="gray" fontSize="13px" textAlign="center">نوت بوك</Text>
                 </Box>
             </SwiperSlide>
             <SwiperSlide>
                 <Box m="auto" w="100px"  onClick={() =>handleCategory("Messenger Bag")} >
                     <Image src="https://images.dailyobjects.com/marche/icons/category/laptop-brifcae-new-arrival-icon.jpg?tr=cm-pad_crop,v-2,w-70,h-70,dpr-1" borderRadius="50%" m="auto" />
-                    <Text color="gray" fontSize="13px" textAlign="center">Messanger Bags</Text>
+                    <Text color="gray" fontSize="13px" textAlign="center">حقائب لاب توب</Text>
                 </Box>
             </SwiperSlide>
             <SwiperSlide>
                 <Box m="auto" w="100px"  >
                     <Image src="https://images.dailyobjects.com/marche/icons/filter/eyewear-cases.png?tr=cm-pad_resize,v-2,w-70,h-70,dpr-1" borderRadius="50%" m="auto" />
-                    <Text color="gray" fontSize="13px" textAlign="center">Eyewear Cases</Text>
+                    <Text color="gray" fontSize="13px" textAlign="center">نظارات</Text>
                 </Box>
             </SwiperSlide>
             <SwiperSlide>
                 <Box m="auto" w="100px" onClick={() =>handleCategory("Watchbands")} >
                     <Image src="https://images.dailyobjects.com/marche/icons/category/watchbands-filter-icon-for-new-arrival.jpg?tr=cm-pad_crop,v-2,w-70,h-70,dpr-1" borderRadius="50%" m="auto" />
-                    <Text color="gray" fontSize="13px" textAlign="center">Watchbands</Text>
+                    <Text color="gray" fontSize="13px" textAlign="center">ساعات</Text>
                 </Box>
             </SwiperSlide>
         </Swiper>
