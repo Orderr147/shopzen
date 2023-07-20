@@ -36,22 +36,22 @@ const Footer = () => {
         <Box className='delivery-wrapper'>
             <Box className='delivery-flex-box'>
                 <Box><Image src ="https://images.dailyobjects.com/marche/icons/social/quick-delivery.svg?tr=cm-pad_resize,v-2,w-40,h-40,dpr-1" alt="icon1"/></Box>
-                <Box>Quick Delivery</Box>
+                <Box>توصيل سريع</Box>
             </Box>
             <Box className='delivery-flex-box'>
                 <Box><Image src ="https://images.dailyobjects.com/marche/icons/social/easy-returns.svg?tr=cm-pad_resize,v-2,w-40,h-40,dpr-1" alt="icon2"/></Box>
-                <Box>Easy Returns</Box>
+                <Box>خدمه استرجاع</Box>
             </Box>
             <Box className='delivery-flex-box'>
                 <Box><Image src ="https://images.dailyobjects.com/marche/icons/social/quality-assured.svg?tr=cm-pad_resize,v-2,w-40,h-40,dpr-1" alt="icon3"/></Box>
-                <Box>Quality Assured</Box>
+                <Box>اعلي جوده</Box>
             </Box>
         </Box>
         <Divider/>
         <Box className='knowsus-wrapper'>
             <Box className='knowus-main-left'>
                 <Box>
-                    <Heading m={"16px 0px 24px"} fontSize={"16px"} >KNOW US</Heading>
+                    <Heading m={"16px 0px 24px"} fontSize={"16px"} >معرفه المزيد </Heading>
                     <Box>
                     <List className='knowus-li-css' >
                     {knowus?.map((item,i)=>{
@@ -59,7 +59,7 @@ const Footer = () => {
                     })}</List></Box>
                 </Box>
                 <Box>
-                <Heading m={"16px 0px 24px"} fontSize={"16px"} >HELPDESK</Heading>
+                <Heading m={"16px 0px 24px"} fontSize={"16px"} >للدعم</Heading>
                 <Box>
                     <List className='knowus-li-css'>
                     {helpdesk?.map((item,i)=>{
@@ -67,7 +67,7 @@ const Footer = () => {
                     })}</List></Box>
                 </Box>
                 <Box>
-                <Heading m={"16px 0px 24px"} fontSize={"16px"} >NETWORK</Heading>
+                <Heading m={"16px 0px 24px"} fontSize={"16px"} >للتواصل </Heading>
                 <Box>
                     <List className='knowus-li-css'>
                     {network?.map((item,i)=>{
@@ -78,7 +78,7 @@ const Footer = () => {
             <Divider h={"auto"} orientation='vertical'/>
             <Box className='knowus-main-right'>
                 <Box className='follous-main'>
-                <Heading mb={"12px"} fontSize={"26px"}>FOLLOW US ON</Heading>
+                <Heading mb={"12px"} fontSize={"26px"}>تابعونا</Heading>
                 <Box className='followus-css'>
                     {socialMediaLogo?.map((item,i)=>{
                         return <Box key={i+4}>
@@ -90,7 +90,7 @@ const Footer = () => {
                 <Divider/>
                 <Box className='download-main'>
                 <Heading mb={"12px"} fontSize={"26px"}>
-                DOWNLOAD OUR APP
+              تنزيل التطبيق     
                 </Heading>
                 <Box className='download-app'>
                 {downloadApp?.map((item,i)=>{
@@ -104,7 +104,7 @@ const Footer = () => {
         </Box>
         <Divider/>
         <Box className="payment-main-css">
-            <Heading fontSize={"16px"} mb={"15px"} textAlign={"center"}>100% SECURE PAYMENT</Heading>
+            <Heading fontSize={"16px"} mb={"15px"} textAlign={"center"}>وسائل دفع امانه  ١٠٠%</Heading>
             <Box className='payment-css'>
                 {paymentlogo?.map((item,i)=>{
                     return <Box key ={i+2}>
@@ -115,7 +115,7 @@ const Footer = () => {
         </Box>
         <Box className='most-search-wraper'>
                <Box>
-               <Heading m="16px 0px 24px" fontSize={"16px"}>MOST SEARCHED ON DAILYOBJECTS</Heading>
+               <Heading m="16px 0px 24px" fontSize={"16px"}>الأكثر بحثا </Heading>
                </Box>
                <Box>
                 <Heading className='footer-serched-object-heading'>CASES & COVERS</Heading>
