@@ -55,7 +55,7 @@ function Sidebar({ id, handleLogout }) {
                 fontSize={'1.5rem'}
                 borderBottomWidth='2px'
               >
-                Home
+                الصفحه الرئيسيه 
               </Text>
             </Link>
             <Link to='/profile'>
@@ -64,7 +64,7 @@ function Sidebar({ id, handleLogout }) {
                 fontSize={'1.5rem'}
                 borderBottomWidth='2px'
               >
-                Profile
+                الملف الشخصي 
               </Text>
             </Link>
             <Link to='/cart'>
@@ -73,7 +73,7 @@ function Sidebar({ id, handleLogout }) {
                 fontSize={'1.5rem'}
                 borderBottomWidth='2px'
               >
-                Cart
+                السله
               </Text>
             </Link>
             <Link to='/product'>
@@ -82,7 +82,7 @@ function Sidebar({ id, handleLogout }) {
                 fontSize={'1.5rem'}
                 borderBottomWidth='2px'
               >
-                Products
+                المنتجات
               </Text>
             </Link>
             <Flex
@@ -110,11 +110,11 @@ function Sidebar({ id, handleLogout }) {
             {/* <Flex justify={'center'}>
               {id ? (
                 <Button onClick={handleLogout} px='2rem'>
-                  Logout
+                  تسجيل الخروج
                 </Button>
               ) : (
                 <Link to='/login'>
-                  <Button px='2rem'>Login</Button>
+                  <Button px='2rem'>تسجيل الدخول </Button>
                 </Link>
               )}
             </Flex> */}
