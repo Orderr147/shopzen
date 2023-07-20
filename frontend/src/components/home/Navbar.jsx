@@ -1,6 +1,6 @@
 import { Box, Button, Flex, Image } from '@chakra-ui/react'
 import React, { useState } from 'react'
-import shopzen from '../../utils/Images/shopzen.jpeg'
+import shopzen from 'https://raw.githubusercontent.com/Orderr147/shopzen/master/frontend/src/components/home/Mmmm.png'
 import Megamenu from './Megamenu'
 import PageLinkLogos from './PageLinkLogos'
 import { Link, useNavigate } from 'react-router-dom'
