@@ -104,7 +104,7 @@ const Footer = () => {
         </Box>
         <Divider/>
         <Box className="payment-main-css">
-            <Heading fontSize={"16px"} mb={"15px"} textAlign={"center"}>وسائل دفع امانه  ١٠٠%</Heading>
+            <Heading fontSize={"16px"} mb={"15px"} textAlign={"center"}>وسائل دفع امانه%  ١٠٠</Heading>
             <Box className='payment-css'>
                 {paymentlogo?.map((item,i)=>{
                     return <Box key ={i+2}>
@@ -118,7 +118,7 @@ const Footer = () => {
                <Heading m="16px 0px 24px" fontSize={"16px"}>الأكثر بحثا </Heading>
                </Box>
                <Box>
-                <Heading className='footer-serched-object-heading'>CASES & COVERS</Heading>
+                <Heading className='footer-serched-object-heading'>الالكترونيات</Heading>
                 <Box>
                 <List className='footer-li-css'>
                     {cases?.map((item, i) =>{
@@ -128,7 +128,7 @@ const Footer = () => {
                 </Box>
                </Box>
                <Box>
-                <Heading className='footer-serched-object-heading'>HOME OFFICE</Heading>
+                <Heading className='footer-serched-object-heading'>الصفحه الرئيسيه </Heading>
                 <Box>
                 <List className='footer-li-css'>
                     {homeoffice?.map((item, i) =>{
@@ -138,7 +138,7 @@ const Footer = () => {
                 </Box>
                </Box>
                <Box>
-                <Heading className='footer-serched-object-heading'>STRAPS & WATCHBANDS</Heading>
+                <Heading className='footer-serched-object-heading'>ساعات</Heading>
                 <Box>
                 <List className='footer-li-css'>
                     {straps?.map((item, i) =>{
@@ -148,7 +148,7 @@ const Footer = () => {
                 </Box>
                </Box>
                <Box>
-                <Heading className='footer-serched-object-heading'>BAGS & SLEEVES</Heading>
+                <Heading className='footer-serched-object-heading'>حقائب</Heading>
                 <Box>
                 <List className='footer-li-css'>
                     {bags?.map((item, i) =>{
@@ -158,7 +158,7 @@ const Footer = () => {
                 </Box>
                </Box>
                <Box>
-                <Heading className='footer-serched-object-heading'>WALLETS</Heading>
+                <Heading className='footer-serched-object-heading'>حافظه نقود</Heading>
                 <Box>
                 <List className='footer-li-css'>
                     {wallets?.map((item, i) =>{
@@ -168,7 +168,7 @@ const Footer = () => {
                 </Box>
                </Box>
                <Box>
-                <Heading className='footer-serched-object-heading'>OTHERS</Heading>
+                <Heading className='footer-serched-object-heading'>اخري</Heading>
                 <Box>
                 <List className='footer-li-css'>
                     {others?.map((item, i) =>{
@@ -180,10 +180,10 @@ const Footer = () => {
             <Divider/>
             <Box>
             <Box>
-            <Heading m="16px 0px 24px" fontSize={"16px"}>GIFTS</Heading>
+            <Heading m="16px 0px 24px" fontSize={"16px"}>هدايا</Heading>
             </Box>
             <Box>
-                <Heading className='footer-serched-object-heading'>GIFTS BY OCCASIONS</Heading>
+                <Heading className='footer-serched-object-heading'>هدايا حسب المناسبه</Heading>
                 <Box>
 
                 <List className='footer-li-css'>
@@ -195,7 +195,7 @@ const Footer = () => {
                 </Box>
             </Box>
             <Box>
-                <Heading className='footer-serched-object-heading'>GIFTS BY RELATIONSHIPS</Heading>
+                <Heading className='footer-serched-object-heading'>هدايا</Heading>
                 <Box>
                 <List className='footer-li-css'>
                     {giftByRelationship?.map((item, i) =>{
@@ -205,7 +205,7 @@ const Footer = () => {
                 </Box>
                </Box>
                <Box>
-                <Heading className='footer-serched-object-heading'>GIFTS BY PERSONA</Heading>
+                <Heading className='footer-serched-object-heading'></Heading>
                 <Box>
                 <List className='footer-li-css'>
                     {giftByPersona?.map((item, i) =>{
@@ -215,7 +215,7 @@ const Footer = () => {
                 </Box>
                </Box>
                <Box>
-                <Heading className='footer-serched-object-heading'>GIFTS BY BUDGET</Heading>
+                <Heading className='footer-serched-object-heading'>هدايا متواضعه التكلفه</Heading>
                 <Box>
                 <List className='footer-li-css'>
                     {giftByBudget?.map((item, i) =>{
@@ -230,7 +230,7 @@ const Footer = () => {
             <AccordionComponent/>
         </Box>
         <Box className='footer-last-conainer'>
-        © 2012 - 2023 Firki Wholesale Pvt. Ltd.
+        © July 2023 Developed by Manar.Adel💥Thank you for using our websit.
         </Box>
         </FooterWrapper>
   )
