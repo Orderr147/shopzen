@@ -1,20 +1,20 @@
 const knowus = [
-    "About DailyObjects",
-"Blog"
+    "",
+""
 ];
 
 const helpdesk = [
-    "Terms Of Use",
-"Warranty Policy",
-"Shipping Policy",
-"Cancellation Policy",
-"Return and Exchange Policy",
-"Privacy & Security Policy"
+    "شروط الاستخدام ",
+"سياسة الضمان",
+"سياسة الشحن",
+"سياسة الإلغاء",
+"سياسة الاسترجاع والاستبدال",
+"سياسة الخصوصية والأمان"
 ];
 
 const network = [
-    "Contact Us",
-"Corporate Gifting"
+    "تواصل معنا ",
+"هدايا "
 ];
 
 const socialMediaLogo = [
@@ -41,8 +41,8 @@ const socialMediaLogo = [
 ];
 const paymentlogo = [
     {
-        name: "Amex",
-        url:"https://images.dailyobjects.com/marche/icons/payments/amex-update.png?tr=cm-pad_resize,v-2,dpr-1"
+        name: "",
+        url:""
     },
     {
         name:"Maestro",
@@ -53,18 +53,18 @@ const paymentlogo = [
         url:"https://images.dailyobjects.com/marche/icons/payments/mastercard-update.png?tr=cm-pad_resize,v-2,dpr-1"
     },
     {
-        name:"Mobikwik",
-        url:"https://images.dailyobjects.com/marche/icons/payments/mobikwik-update.png?tr=cm-pad_resize,v-2,dpr-1"
+        name:"",
+        url:""
     },
     {
         name:"Paytm",
         url:"https://images.dailyobjects.com/marche/icons/payments/paytm-update.png?tr=cm-pad_resize,v-2,dpr-1"
     },{
-        name:"RuPay",
-        url:"https://images.dailyobjects.com/marche/icons/payments/rupay-update.png?tr=cm-pad_resize,v-2,dpr-1"
+        name:"",
+        url:""
     },{
-        name:"Upi",
-        url:"https://images.dailyobjects.com/marche/icons/payments/upi-update.png?tr=cm-pad_resize,v-2,dpr-1"
+        name:"",
+        url:""
     },
     {
         name:"Visa",
@@ -121,28 +121,28 @@ const cases = [
 ];
 
 const homeoffice =[
-    "Tech Kit & Organisers",
-"Desks",
-"Organisers",
-"Mobile & Laptops Stands",
-"Stationery",
-"Wireless Charger"
+    "أدوات التقنية والمنظمون",
+"مكاتب",
+"المنظمون",
+"منصات المحمول والكمبيوتر المحمول",
+"الأدوات المكتبية",
+"شاحن لاسلكي"
 ];
 
 const straps=[
-    "Apple Watch Straps",
-"Samsung Watch Straps",
-"Fossil Watch Straps",
-"Fitbit Watch Straps",
-"Garmin Watch Straps",
-"OnePlus Watch Straps",
-"Amazfit Watch Straps",
-"Noise Watch Straps",
-"boAt Watch Straps",
-"Fire-Boltt Watch Straps",
-"Smartwatch Straps",
-"Leather Watch Straps",
-"Silicone Watch Straps"
+    "",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+""
 ];
 
 const bags = [
