@@ -150,7 +150,7 @@ const AdminLoginU = () => {
           onClick={handleGuest}
           colorScheme='green'
         >
-          Guest mode
+          mode
         </Button>
       </Flex>
     </>
