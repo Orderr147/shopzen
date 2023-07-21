@@ -7,13 +7,13 @@ function EmptyCart() {
   return (
     <>
       <div className={styles.empty_cart_maindiv}>
-        <p>YOUR SHOPPING CART IS EMPTY</p>
-        <p>Fill it with products</p>
+        <p>السله فارغه </p>
+        <p>اذهب للتسوق أولا </p>
         
         <div >
         <Link to="/product">
         <Button colorScheme='green' borderRadius={0} m="auto" size='lg'  >
-          Browse Products
+          تصفح المنتجات
         </Button>
         </Link>
         </div>
