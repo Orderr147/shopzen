@@ -6,13 +6,13 @@ const NewArrivalPopover = () => {
   return (
     <Box><Popover trigger='hover' isLazy placement='bottom' size="full">
     <PopoverTrigger>
-      <Box><Link to='/product'>NEW ARRIVALS</Link></Box>
+      <Box><Link to='/product'>الاحدث</Link></Box>
     </PopoverTrigger>
     <PopoverContent mt={"16px"} borderRadius="none" width={"99vw"}>
       <PopoverBody>
       <Box className='arrival-container'>
         <Box>
-            <Box className='nav-heading'>NEW ARRIVALS</Box>
+            <Box className='nav-heading'></Box>
             <Box>
             <List className='newArrival-li-css'>
                     {arraivalData?.map((item,i)=>{
@@ -51,11 +51,11 @@ const arraivalImg = [
     }
 ];
 const arraivalData = [
-"Desks",
-"Charging Solutions",
-"Collections",
-"Macbook Sleeves",
-"Messenger Bags",
-"Eyewear Cases",
-"Watchbands"
+"مكاتب",
+"حلول الشحن",
+"كوليكشن ",
+"ماك بوك ",
+"حقائب",
+"نظارات ",
+"ساعات"
 ]
