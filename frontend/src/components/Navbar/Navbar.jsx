@@ -1,6 +1,6 @@
 import { Box, Button, Flex, Image } from '@chakra-ui/react'
 import React from 'react'
-import shopzen from '../../utils/Images/shopzen.jpeg'
+import shopzen from 'https://raw.githubusercontent.com/Orderr147/shopzen/master/frontend/src/components/home/Mmmm.png'
 import { NavbarWrapper } from './NavbarWrapper'
 import PageLinkLogos from '../home/PageLinkLogos'
 import NewArrivalPopover from './NewArrivalPopover'
@@ -31,9 +31,9 @@ const Navbar = () => {
           <Box>
             <CaseWrapper />
           </Box>
-          <Box>ACCESSORIES</Box>
-          <Box>BAGS & WALLETS</Box>
-          <Box>HOME OFFICE</Box>
+          <Box>اكسسوارات </Box>
+          <Box>حقائب ومحافظ</Box>
+          <Box>الصفحه الرئيسيه </Box>
 
           {/* <Box>GIFTING</Box> */}
         </Box>
@@ -47,11 +47,11 @@ const Navbar = () => {
                 localStorage.setItem('user_token', '')
               }}
             >
-              <Link to='/login'>LOGOUT</Link>
+              <Link to='/login'>تسجيل الخروج</Link>
             </Button>
           ) : (
             <Button>
-              <Link to='/login'>LOGIN</Link>
+              <Link to='/login'>تسجيل الدخول </Link>
             </Button>
           )}
         </Flex>
