@@ -5,13 +5,13 @@ const CaseWrapper = () => {
   return (
     <Box><Popover trigger='hover' isLazy placement='bottom' size="full">
     <PopoverTrigger>
-      <Box>CASES & SLEEVES</Box>
+      <Box></Box>
     </PopoverTrigger>
     <PopoverContent mt={"16px"} borderRadius="none" width={"99vw"}>
       <PopoverBody>
       <Box className='arrival-container'>
         <Box>
-            <Box className='nav-heading'>CASES</Box>
+            <Box className='nav-heading'></Box>
             <Box className='case-navlist-style'>
             <Box>
             <Box color={"black"} textDecoration={"underline"}>APPLE</Box>
@@ -19,15 +19,15 @@ const CaseWrapper = () => {
                     {apple?.map((item,i)=>{
                         return <ListItem key ={i+1}>{item}</ListItem>
                     })}</List>
-                <Box textDecoration={"underline"} >View All Models +</Box>
+                <Box textDecoration={"underline"} >عرض المزيد +</Box>
             </Box>
             <Box>
-            <Box color={"black"} textDecoration={"underline"}>SAMSUNG</Box>
+            <Box color={"black"} textDecoration={"underline"}>سامسونج</Box>
             <List className='newArrival-li-css'>
                     {samsung?.map((item,i)=>{
                         return <ListItem key ={i+1}>{item}</ListItem>
                     })}</List>
-                <Box textDecoration={"underline"} >View All Models +</Box>
+                <Box textDecoration={"underline"} >عرض المزيد +</Box>
             </Box>
             <Box>
             <Box color={"black"} textDecoration={"underline"}>ONEPLUS</Box>
@@ -35,7 +35,7 @@ const CaseWrapper = () => {
                     {oneplus?.map((item,i)=>{
                         return <ListItem key ={i+1}>{item}</ListItem>
                     })}</List>
-                <Box textDecoration={"underline"} >View All Models +</Box>
+                <Box textDecoration={"underline"} >عرض المزيد +</Box>
             </Box>
             <Box>
             <Box color={"black"} textDecoration={"underline"}>OTHER BRANDS</Box>
